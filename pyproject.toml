@@ -16,8 +16,11 @@ classifiers = [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.9"
+python = ">=3.9,<3.13"
 nicegui = "^1.4.3"
+pywin32 = "^306"
+pyinstaller = "^6.2.0"
+pywebview = "^4.4.1"
 
 [build-system]
 requires = ["poetry-core"]
