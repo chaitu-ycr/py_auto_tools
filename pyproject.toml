@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "my_automation_tools"
+version = "0.0.1"
+description = "automotive automation tools"
+authors = ["chaitu-ycr <chaitu.ycr@gmail.com>"]
+license = "LICENSE"
+readme = "README.md"
+homepage = "https://github.com/chaitu-ycr/my_automation_tools.git"
+repository = "https://github.com/chaitu-ycr/my_automation_tools.git"
+keywords = ["python", "automation", "tools"]
+classifiers = [
+    "Programming Language :: Python :: 3.9",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: Microsoft :: Windows",
+    "Topic :: Software Development :: Embedded Systems"
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
