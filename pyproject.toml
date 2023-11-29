@@ -1,13 +1,13 @@
 [tool.poetry]
-name = "my_automation_tools"
+name = "py_auto_tools"
 version = "0.0.1"
 description = "automotive automation tools"
 authors = ["chaitu-ycr <chaitu.ycr@gmail.com>"]
 license = "LICENSE"
 readme = "README.md"
-homepage = "https://github.com/chaitu-ycr/my_automation_tools.git"
-repository = "https://github.com/chaitu-ycr/my_automation_tools.git"
-keywords = ["python", "automation", "tools"]
+homepage = "https://github.com/chaitu-ycr/py_auto_tools.git"
+repository = "https://github.com/chaitu-ycr/py_auto_tools.git"
+keywords = ["python", "automation", "tools", "automotive"]
 classifiers = [
     "Programming Language :: Python :: 3.9",
     "License :: OSI Approved :: MIT License",
@@ -17,6 +17,7 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.9"
+nicegui = "^1.4.3"
 
 [build-system]
 requires = ["poetry-core"]
